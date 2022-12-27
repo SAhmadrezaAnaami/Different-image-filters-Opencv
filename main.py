@@ -21,12 +21,7 @@ print("for ' sepiaimg ' Filter  enter → ' 9 ' ")
 print("for ' ROI_selector ' Filter  enter → ' 10 ' ")
 
 
-
-
-
 typeF = int(input("enter the type of filtering : "))
-
-
 
 img = cv2.imread(filepath, 1)
 size = (800 ,600)
@@ -213,30 +208,3 @@ if(typeF == 9):
     sepia(img)
 if(typeF == 10):
     ROI_selector(img)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
